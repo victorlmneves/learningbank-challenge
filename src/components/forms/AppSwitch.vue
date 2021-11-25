@@ -31,16 +31,13 @@ export default {
 
   methods: {
     onChange(event) {
-      console.log(event);
       const id = event.target.dataset.ruleId
       const active = event.target.checked
       const rule = {
         id,
         active
       }
-      // const rule = this.$store.getters.getRule(ruleID)
 
-      console.log(event.target.checked);
       this.$emit('change-status', rule)
     }
   }

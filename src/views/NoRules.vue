@@ -25,7 +25,7 @@
 import AppButton from '@/components/forms/AppButton.vue'
 
 export default {
-  name: 'UserManagment',
+  name: 'NoRules',
 
   components: {
     AppButton
