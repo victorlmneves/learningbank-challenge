@@ -1,0 +1,23 @@
+[
+  {
+    "defaultText": "Choose status",
+    "options": [
+      {
+        "value": "active",
+        "text": "Active"
+      },
+      {
+        "value": "anonymous",
+        "text": "Anonymous"
+      },
+      {
+        "value": "created",
+        "text": "Created"
+      },
+      {
+        "value": "deactivated",
+        "text": "Deactivated"
+      }
+    ]
+  }
+]

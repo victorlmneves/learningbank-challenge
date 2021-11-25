@@ -1,0 +1,46 @@
+[
+  {
+    "value": "default",
+    "label": "Choose When"
+  },
+  {
+    "value": "afterXdays",
+    "label": "After X days"
+  },
+  {
+    "value": "",
+    "label": "User's first day",
+    "options": [
+      {
+        "value": "usersFirstDay",
+        "label": "On user's last day"
+      },
+      {
+        "value": "xDaysBeforeUsersFirstDay",
+        "label": "X days before user's last day"
+      },
+      {
+        "value": "xDaysAfterUsersFirstDay",
+        "label": "X days after user's last day"
+      }
+    ] 
+  },
+  {
+    "value": "",
+    "label": "User's last day",
+    "options": [
+      {
+        "value": "usersLastDay",
+        "label": "On user's last day"
+      },
+      {
+        "value": "xDaysBeforeUsersLastDay",
+        "label": "X days before user's last day"
+      },
+      {
+        "value": "xDaysAfterUsersLastDay",
+        "label": "X days after user's last day"
+      }
+    ] 
+  }
+]

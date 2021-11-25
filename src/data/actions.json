@@ -1,0 +1,14 @@
+[
+  {
+    "value": "anonymize",
+    "text": "Anonymize"
+  },
+  {
+    "value": "deactivate",
+    "text": "Deactivate"
+  },
+  {
+    "value": "delete",
+    "text": "Delete"
+  }
+]

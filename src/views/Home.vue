@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main class="home">
+    <ManageRules v-if="rules.length > 0" />
+    <NoRules v-else />
+  </main>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import ManageRules from '@/views/ManageRules.vue'
+import NoRules from '@/views/NoRules.vue'
 
 export default {
   name: 'Home',
+
+  data() {
+    return {
+      rules: []
+    }
+  },
+
   components: {
-    HelloWorld
+    ManageRules,
+    NoRules
   }
 }
 </script>

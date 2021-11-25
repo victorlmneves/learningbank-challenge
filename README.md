@@ -1,5 +1,9 @@
 # learningbank-challenge
 
+### Code for LearningBank exercise using Vue.js
+
+Note: No CRUD operations were implemented on the Overview section, except the one that allow us to activate/deactivate the rule
+
 ## Project setup
 ```
 yarn install
@@ -13,16 +17,6 @@ yarn serve
 ### Compiles and minifies for production
 ```
 yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
 ```
 
 ### Customize configuration
